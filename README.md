@@ -29,3 +29,5 @@ At the same time, there are pages on the Internet that do not satisfy the strong
 
 #### Solving the Termination Point Problem and the Trap Problem
 <p> In the above process, we have missed the point that the web surfer is a laid back web surfer, not a stupid web surfer. This address may of course be the original web page again, but here it gives him a chance to escape from this abyss. Simulating a clever and laid-back web surfer, the algorithm is improved so that at each step, the web surfer may not want to look at the current web page, and instead of looking at the current web page, he will not click on the above link, but instead quietly type another address into the address bar, and the probability of jumping to each web page by typing in the address bar is . Assuming that the probability that the Internet user views the current web page at each step is , then the probability that he jumps from the browser address bar is , so the original iterative formula is transformed into: </p>
+
+$$ V'\, =\, αMV\, +\, (1-α)e $$
